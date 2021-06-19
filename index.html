@@ -1,0 +1,91 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/slick.css">
+        <link rel="stylesheet" href="css/slick-theme.css">
+    </head>
+    <body>
+        <section class="header">
+            <div class="nav-bar">
+                <div class="logo">
+                    <a href="#">NikeStore</a>
+                </div>
+                <div class="menu">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Service</a></li>
+                        <li><a href="#">Product</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <!--End Menu-->
+                <div class="icons">
+                    <ul>
+                        <li><a href="#"><i class="fa fa-sign-in"></i> Sign in</a></li>
+                        <li><a href="#"><i class="fa fa-search"></i></a></li>
+                        <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+                    </ul>
+                </div>
+                <!--End icons-->
+            </div>
+            <!--End Nav Bar-->
+            <div class="hero">
+                <div class="row">
+                    <div class="left-sec">
+                        <div class="content">
+                            <h2>Online</h2>
+                            <h1>Shoe'S</h1>
+                            <h3>STORE</h3>
+                            <a href="#" class="btn">Shop Now</a>
+                        </div>
+                        <div class="product">
+                            <div class="product-left">
+                                <div class="product-img">
+                                    <img src="image/product-1.png" alt="">
+                                </div>
+                                <div class="product-description">
+                                    <h2 class="title">Nike</h2>
+                                    <h3 class="line">Solide Shoe Nike</h3>
+                                    <span class="price">Rs 200 $</span>
+                                </div>
+                            </div>
+                            <div class="product-right">
+                                <div class="product-img">
+                                    <img src="image/product-2.png" alt="">
+                                </div>
+                                <div class="product-description">
+                                    <h2 class="title">Nike</h2>
+                                    <h3 class="line">Solide Shoe Nike</h3>
+                                    <span class="price">Rs 100 $</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="right-sec">
+                        <div class="shoe-brand">
+                            <div><img src="image/1.png" alt=""></div>
+                            <div><img src="image/2.png" alt=""></div>
+                            <div><img src="image/3.png" alt=""></div>
+                            <div><img src="image/4.png" alt=""></div>
+                        </div>
+                    </div>
+                </div>
+                <!--End Row-->
+            </div>
+        </section>
+    </body>
+</html>
+
+<script src="js/jquery.js"></script>
+<script src="js/slick.js"></script>
+<script>
+    $('.shoe-brand').slick({
+        dots:true,
+        speed:500,
+        autoplay:true,
+        fade:true,
+        cssEase:'linear'
+    });
+</script>

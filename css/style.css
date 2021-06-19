@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a,a:hover{
+    text-decoration: none;
+    color: #333;
+}
+ul{
+    list-style: none;
+}
+li{
+    display: inline-block;
+}
+.header{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../image/cover.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+.header .nav-bar{
+    width: 80%;
+    height: 80px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 80px;
+}
+.header .nav-bar .logo{
+    margin-left: 10px;
+}
+.header .nav-bar .logo a{
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: #fff;
+}
+.header .nav-bar .menu{
+    margin-right: 30px;
+}
+.header .nav-bar .menu li a{
+    font-size: 18px;
+    letter-spacing: 1px;
+    padding: 10px;
+    border-radius: 5px;
+    text-transform: capitalize;
+    color: #fff;
+}
+
+.header .nav-bar .icons ul li{
+    margin-right: 15px;
+}
+.header .nav-bar .icons ul li a{
+    letter-spacing: 1px;
+    font-size: 18px;
+    color: #fff;
+}
+.header .nav-bar .icons ul li i{
+    width: 25px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    align-items: center;
+    font-size: 19px;
+    color: #fff;
+}
+/* End Of Nav Bar  */
+.header .hero{
+    width: 100%;
+}
+.header .hero .row{
+    position: relative;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+    margin: auto;
+}
+.header .hero .row .left-sec{
+    width: 60%;
+    margin-left: 10px;
+}
+.header .hero .row .left-sec .content{
+    line-height: 90px;
+    margin-top: -20px;
+}
+.header .hero .row .left-sec .content h2{
+    position: relative;
+    font-size: 60px;
+    font-weight: 300;
+    color: #fff;
+}
+.header .hero .row .left-sec .content h1{
+    font-size: 110px;
+    font-weight: 520;
+    letter-spacing: 2px;
+    color: #fff;
+}
+.header .hero .row .left-sec .content h3{
+    font-size: 66px;
+    font-weight: 500;
+    letter-spacing: 4px;
+    color: #fff;
+}
+.header .hero .row .left-sec .content .btn{
+    display: block;
+    border: 2px solid #ddd;
+    padding: 10px 25px;
+    width: 140px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23px;
+    transition: all 0.5s;
+    color: #fff;
+}
+.header .hero .row .left-sec .content .btn:hover{
+    background: #000;
+    color: #fff;
+    border: 2px solid #ddd;
+}
+.header .right-sec{
+    width: 50%;
+    padding-top: 20px;
+    margin-top: -10px;
+}
+.header .right-sec img{
+    height: 450px;
+    margin: auto;
+}
+.slick-prev,.slick-next{
+    margin-top: 3px;
+    top: 100% !important;
+}
+.slick-prev{
+    margin-left: 220px;
+}
+.slick-next{
+    margin-right: 100px;
+}
+.slide-slide{
+    outline: none;
+}
+.slick-dots li button:before{
+    font-size: 5px;
+    border: 3px solid #fff;
+    border-radius: 50px;
+    margin-left: 50px;
+    margin-top: -10px;
+    color: orange;
+}
+
+.slick-dots li.slick-active button::before{
+    color: orange;
+    opacity: 1;
+}
+.header .hero .row .left-sec .product{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 100px;
+    margin-left: -70px;
+}
+.header .hero .row .left-sec .product .product-left,
+.header .hero .row .left-sec .product .product-right{
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+.header .hero .row .left-sec .product img{
+    max-width: 140px;
+}
+.header .hero .row .left-sec .product .product-description{
+    margin-left: 20px;
+}
+.header .hero .row .left-sec .product .product-description .title{
+    font-size: 22px;
+    letter-spacing: 5px;
+}
+.header .hero .row .left-sec .product .product-description .line{
+    font-weight:200;
+    letter-spacing: .3px;
+    margin:1px 0;
+}
